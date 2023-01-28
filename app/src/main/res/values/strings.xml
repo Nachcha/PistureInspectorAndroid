@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PostureInspector</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_record_fragment">Hello record fragment</string>
+    <string name="hello_replay_fragment">Hello replay fragment</string>
+    <string name="hello_setting_fragment">Hello settings fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
