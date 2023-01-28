@@ -3,12 +3,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/spine2"
     tools:context=".RecordFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_record_fragment" />
+        android:gravity="start">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <ImageView
+                    android:id="@+id/heatmaplive"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="15dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/foots"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
 
 </FrameLayout>

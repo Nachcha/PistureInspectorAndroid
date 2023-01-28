@@ -3,13 +3,13 @@
     <item
         android:id="@+id/record"
         android:title="Record"
-        android:icon="@drawable/ic_launcher_foreground"/>
+        android:icon="@drawable/ic_action_record"/>
     <item
         android:id="@+id/replay"
         android:title="Replay"
-        android:icon="@drawable/ic_launcher_foreground"/>
+        android:icon="@drawable/ic_action_replay"/>
     <item
         android:id="@+id/settings"
         android:title="Settings"
-        android:icon="@drawable/ic_launcher_foreground"/>
+        android:icon="@drawable/ic_action_setting"/>
 </menu>
