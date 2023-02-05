@@ -19,7 +19,7 @@ public class RecordActivity extends AppCompatActivity  implements BottomNavigati
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
-        bottomNavigationView.setSelectedItemId(R.id.record);
+        bottomNavigationView.setSelectedItemId(R.id.replay);
     }
 
     RecordFragment recordFragment = new RecordFragment();
